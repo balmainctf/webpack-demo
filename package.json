@@ -1,0 +1,47 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "学习配置webpack",
+  "main": "index.js",
+  "dependencies": {
+    "purecss": "^0.6.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-latest": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "clean-webpack-plugin": "^0.1.10",
+    "css-loader": "^0.24.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.22.0",
+    "node-sass": "^3.8.0",
+    "purifycss-webpack-plugin": "^2.0.3",
+    "react-lite": "^0.15.17",
+    "sass-loader": "^4.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1",
+    "webpack-merge": "^0.14.1",
+    "webpack-validator": "^2.2.7"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancebiu/webpack-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lancebiu/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/lancebiu/webpack-demo#readme"
+}
